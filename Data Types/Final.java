@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 class Students {
     final int data;
     final String name;
@@ -51,8 +54,9 @@ public class Final extends Students {
         
         // Students object = new Students(45, "ravi");
         // System.out.println(object.age);
-        System.out.println(obj.name);
-        obj.print();
+        // System.out.println(obj.name);
+        // obj.print();
+
     }
 
 }
