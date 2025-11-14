@@ -7,7 +7,8 @@
     Methods are used to perform certain actions, and they are also known as functions.
     Why use methods? To reuse code: define the code once, and use it many times.
 */
-
+import java.util.ArrayList;
+import java.util.Collection;
 
 public class Method {
 
@@ -39,9 +40,7 @@ public class Method {
         obj.printArray(array);
 
         obj.printTheParameters(34,"Rajesh Waghmode", "Computer Engineer");
-
         
-
     }
 
 }
