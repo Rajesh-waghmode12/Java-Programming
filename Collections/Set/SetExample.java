@@ -98,7 +98,9 @@ public class SetExample {
         Iterator<Person> it = persons.iterator();
     
         while (it.hasNext()) {
-            System.out.println(it.next().getName());
+            Person p = it.next();
+            System.out.println(p.getName());
+            System.out.println(p.getAge());
         }
     }
 }
