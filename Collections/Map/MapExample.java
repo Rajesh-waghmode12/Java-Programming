@@ -2,6 +2,24 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 
+
+class person {
+    private Integer aga;
+    private String name;
+    
+    public person(Integer aga, String name) {
+        this.aga = aga;
+        this.name = name;
+    }
+
+    @Override
+    public String toString() {
+        return "person [aga=" + aga + ", name=" + name + "]";
+    }
+
+    
+}
+
 public class MapExample {
     
     public static void main(String[] args) {
