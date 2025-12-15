@@ -41,11 +41,11 @@ public class Main {
          * 
          */
         
-        //  System.out.println(
-        // list.stream()
-        //     .parallel()
-        //     .toList()
-        //  );
+         System.out.println(
+        list.stream()
+            .parallel()
+            .toList()
+         );
 
 
        

@@ -1,0 +1,11 @@
+
+import any.AnyClass;
+
+public class Main {
+
+    public static void main(String[] args) {
+        
+        AnyClass.print();
+    }
+
+}

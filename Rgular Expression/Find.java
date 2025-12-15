@@ -9,6 +9,7 @@ public class Find {
         
         Pattern pattern = Pattern.compile("Random", Pattern.CASE_INSENSITIVE);
         Matcher matcher = pattern.matcher("Hi Random");
+
         
         if (matcher.find()) {
             System.out.println("the pattern found ... ");
