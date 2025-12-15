@@ -1,5 +1,23 @@
-package Oops.Polymorphism;
 
+
+class Animal {
+
+    public int num = 34;
+
+    public void makeSound() {
+        System.out.println("the is animal Method");
+    }
+}
+
+class Dog extends Animal {
+
+    public int num = 4;
+    
+    @Override
+    public void makeSound() {
+        System.out.println("this is dog method");
+    }
+}
 
 class Student {
     String name;
@@ -32,9 +50,12 @@ public class Main {
     
     public static void main(String[] args) {
         
-        Student s1 = new Student("Rajesh Waghmode", 34, true);
+        // Student s1 = new Student("Rajesh Waghmode", 34, true);
 
-        s1.printInfo("Avinash");
+        // s1.printInfo("Avinash");
         
+        Animal obj = new Dog();
+        obj.makeSound();
+        System.out.println(obj.num);
     }
 }
