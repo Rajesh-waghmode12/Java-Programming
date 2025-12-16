@@ -2,6 +2,13 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "java",
+      "name": "RunnableImp",
+      "request": "launch",
+      "mainClass": "RunnableImp",
+      "projectName": "JAVA__2ea8fec5"
+    },
+    {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
       "request": "launch",
