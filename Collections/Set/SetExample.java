@@ -60,47 +60,50 @@ public class SetExample {
         set.add("Elephant");
         set.add("Fish");
 
-        // System.out.println(set.isEmpty());
-        // int size = set.size();
-        // System.out.println(size);
-        
-        // set.addAll(hashSet);
-        // System.out.println(set.containsAll(hashSet));
-        
-        // set.forEach(item -> System.out.println(item));
-        // System.out.println(set);
-
-        // Iterator<String> it = set.iterator();
-
-        // while (it.hasNext()) {
-        //     System.out.println(it.next());
-        // }
-
-
-        // Set<String> names = new LinkedHashSet<>();
-        // names.add(null);
-        // names.add("Rajesh Waghmode");
-        // // System.out.println(names.size());
-
-        // names.add("ravi");
-        // names.add("rahul");
-        // names.add("suresh");
-        // names.add("manoj");
-
-        // names.forEach(items -> System.out.println(items));
-
-        Set<Person> persons = new TreeSet<>();
-
-        persons.add(new Person("Rajesh Waghmode", 23));
-        persons.add(new Person("Rahul Waghmode", 2));
-        persons.add(new Person("Avinash Waghmode", 23));
-   
-        Iterator<Person> it = persons.iterator();
-    
-        while (it.hasNext()) {
-            Person p = it.next();
-            System.out.println(p.getName());
-            System.out.println(p.getAge());
-        }
+        /*
+         * 
+         * System.out.println(set.isEmpty());
+         * int size = set.size();
+         * System.out.println(size);
+         * 
+         * set.addAll(hashSet);
+         * System.out.println(set.containsAll(hashSet));
+         * 
+         * set.forEach(item -> System.out.println(item));
+         * System.out.println(set);
+         * 
+         * Iterator<String> it = set.iterator();
+         * 
+         * while (it.hasNext()) {
+         * System.out.println(it.next());
+         * }
+         * 
+         * 
+         * Set<String> names = new LinkedHashSet<>();
+         * names.add(null);
+         * names.add("Rajesh Waghmode");
+         * // System.out.println(names.size());
+         * 
+         * names.add("ravi");
+         * names.add("rahul");
+         * names.add("suresh");
+         * names.add("manoj");
+         * 
+         * names.forEach(items -> System.out.println(items));
+         * 
+         * Set<Person> persons = new TreeSet<>();
+         * 
+         * persons.add(new Person("Rajesh Waghmode", 23));
+         * persons.add(new Person("Rahul Waghmode", 2));
+         * persons.add(new Person("Avinash Waghmode", 23));
+         * 
+         * Iterator<Person> it = persons.iterator();
+         * 
+         * while (it.hasNext()) {
+         * Person p = it.next();
+         * System.out.println(p.getName());
+         * System.out.println(p.getAge());
+         * }
+         */
     }
 }

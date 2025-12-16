@@ -30,24 +30,25 @@ public class MapExample {
         map.put("Avinash", 33);
         map.put("Ravi", 19);
 
-        // System.out.println(map.get("suresh"));
-        
-        // map.remove("Rajesh");
-        // System.out.println(map.containsKey("Rajes"));
-        // System.out.println(map.containsValue(19));
-
-
-        // Set<String> array = map.keySet();
-        // System.out.println(array);
-        // System.out.println(map);
-
-        // System.out.println(map.values());
-        // System.out.println(map.entrySet());
-
-        for (Map.Entry<String, Integer> entry : map.entrySet()) {
-            System.out.println(entry.getKey() + " " + entry.getValue());
-        }
-
+        /*
+         * System.out.println(map.get("suresh"));
+         * 
+         * map.remove("Rajesh");
+         * System.out.println(map.containsKey("Rajes"));
+         * System.out.println(map.containsValue(19));
+         * 
+         * 
+         * Set<String> array = map.keySet();
+         * System.out.println(array);
+         * System.out.println(map);
+         * 
+         * System.out.println(map.values());
+         * System.out.println(map.entrySet());
+         * 
+         * for (Map.Entry<String, Integer> entry : map.entrySet()) {
+         * System.out.println(entry.getKey() + " " + entry.getValue());
+         * }
+         */
         
     }
 }

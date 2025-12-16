@@ -38,26 +38,28 @@ public class ListExample {
             System.out.println(it.next());
         }
 
-        
-        // list.clear();
-        // printList(list);
-        // System.out.println(list.hashCode());
-        // String name = list.get(0).toString();
-
-        // System.out.println(name);
-        // Integer num = (Integer)list.get(0);
-
-
-        // for(Object obj:list){
-        //     System.out.println(obj);
-        // }
-
-
-        // list.forEach(items -> {
-        //     System.out.println(items);
-        // });
-
-        // printList(list);
-
+        /*
+         * 
+         * list.clear();
+         * printList(list);
+         * System.out.println(list.hashCode());
+         * String name = list.get(0).toString();
+         * 
+         * System.out.println(name);
+         * Integer num = (Integer)list.get(0);
+         * 
+         * 
+         * for(Object obj:list){
+         * System.out.println(obj);
+         * }
+         * 
+         * 
+         * list.forEach(items -> {
+         * System.out.println(items);
+         * });
+         * 
+         * printList(list);
+         * 
+         */
     }
 }
